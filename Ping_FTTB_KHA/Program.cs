@@ -18,7 +18,7 @@ namespace Ping_FTTB_KHA
         static bool isAvailableDataLinks = true;
         static string ColorText = "Green";
         //web source #1
-        static string WebPortaGetInfo { get; set; } = "http://webportal.ks/src/util_info.php?getinfo&hide=true&ip=";
+        static string WebPortaGetInfo { get; set; } = "http://webportal-ks/src/util_info.php?getinfo&hide=true&ip=";
 
         static void Main(string[] args)
         {
