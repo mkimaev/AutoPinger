@@ -1,0 +1,20 @@
+﻿09.09.2018 1:41:21'Требуемый адрес для своего контекста неверен 10.44.1.101:0'   в System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   в S22.Imap.ImapClient.Connect(String hostname, Int32 port, Boolean ssl, RemoteCertificateValidationCallback validate)
+   в S22.Imap.ImapClient..ctor(String hostname, Int32 port, String username, String password, AuthMethod method, Boolean ssl, RemoteCertificateValidationCallback validate)
+   в Ping_FTTB_KHA.MailHandler.FindAddress() в C:\Users\user\source\repos\Ping_FTTB_KHA_git\Ping_FTTB_KHA\MailHandler.cs:строка 129
+   в Ping_FTTB_KHA.Program.Main(String[] args) в C:\Users\user\source\repos\Ping_FTTB_KHA_git\Ping_FTTB_KHA\Program.cs:строка 35'Was IP in request '**************************************************************'
+
+solver)
+   в System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   в System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   в System.Xml.XmlTextReaderImpl.OpenUrl()
+   в System.Xml.XmlTextReaderImpl.Read()
+   в System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   в System.Xml.XmlDocument.Load(XmlReader reader)
+   в System.Xml.XmlDocument.Load(String filename)
+   в Ping_FTTB_KHA.MailHandler.get_LoginIMAP() в C:\Users\user\source\repos\Ping_FTTB_KHA\Ping_FTTB_KHA\MailHandler.cs:строка 29
+   в Ping_FTTB_KHA.MailHandler.FindAddress() в C:\Users\user\source\repos\Ping_FTTB_KHA\Ping_FTTB_KHA\MailHandler.cs:строка 57
+   в Ping_FTTB_KHA.Program.Main(String[] args) в C:\Users\user\source\repos\Ping_FTTB_KHA\Ping_FTTB_KHA\Program.cs:строка 32'Was IP in request '**************************************************************'
+
+*************************'
+
